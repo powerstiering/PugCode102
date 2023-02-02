@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_pugUniqueIdentifier",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_pugName",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes1",
+						"name": "_pugType",
+						"type": "bytes1"
+					}
+				],
+				"name": "addPug",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToUniqueIdentifier",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "pug",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "pugUniqueIdentifier",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "pugName",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes1",
+						"name": "pugType",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/PugCodeArray.sol": "PugCode102"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/PugCodeArray.sol": {
+			"keccak256": "0xdf851449eab341514005c8e7606a40fdf7bc4ecf208518b6c5bc6f763de7816e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0aa6e574b05e46edff08eee58be321045105eefd78b987ef2ec646180c6c0f79",
+				"dweb:/ipfs/Qma5xJLfcu1dT2T663x82F2XEFNm4xhQXoJtWV8FyJ91BX"
+			]
+		}
+	},
+	"version": 1
+}

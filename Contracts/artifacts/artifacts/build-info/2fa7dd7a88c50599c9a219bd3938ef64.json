@@ -1,12 +1,12 @@
 {
-	"id": "2078f3b95f6a0b61573161226a3323b4",
+	"id": "2fa7dd7a88c50599c9a219bd3938ef64",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.7",
 	"solcLongVersion": "0.8.7+commit.e28d00a7",
 	"input": {
 		"language": "Solidity",
 		"sources": {
-			"Contracts/PugCode102Contract.sol": {
+			"Contracts/artifacts/PugCodeArray.sol": {
 				"content": ""
 			}
 		},
@@ -42,12 +42,12 @@
 			{
 				"component": "general",
 				"errorCode": "1878",
-				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> Contracts/PugCode102Contract.sol\n\n",
+				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> Contracts/artifacts/PugCodeArray.sol\n\n",
 				"message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
 				"severity": "warning",
 				"sourceLocation": {
 					"end": -1,
-					"file": "Contracts/PugCode102Contract.sol",
+					"file": "Contracts/artifacts/PugCodeArray.sol",
 					"start": -1
 				},
 				"type": "Warning"
@@ -55,21 +55,21 @@
 			{
 				"component": "general",
 				"errorCode": "3420",
-				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"\n--> Contracts/PugCode102Contract.sol\n\n",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"\n--> Contracts/artifacts/PugCodeArray.sol\n\n",
 				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"",
 				"severity": "warning",
 				"sourceLocation": {
 					"end": -1,
-					"file": "Contracts/PugCode102Contract.sol",
+					"file": "Contracts/artifacts/PugCodeArray.sol",
 					"start": -1
 				},
 				"type": "Warning"
 			}
 		],
 		"sources": {
-			"Contracts/PugCode102Contract.sol": {
+			"Contracts/artifacts/PugCodeArray.sol": {
 				"ast": {
-					"absolutePath": "Contracts/PugCode102Contract.sol",
+					"absolutePath": "Contracts/artifacts/PugCodeArray.sol",
 					"exportedSymbols": {},
 					"id": 1,
 					"nodeType": "SourceUnit",
