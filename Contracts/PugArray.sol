@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >= 0.8.7; //0.8.7 is a stable version of Solidity
 
-contract PugCode102 {
+contract PugArray {
     uint256 pugUniqueIdentifier;
     string pugName;
     bytes1 pugType;

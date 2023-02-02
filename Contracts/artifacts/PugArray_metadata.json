@@ -6,8 +6,56 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "Biscuit",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_pugUniqueIdentifier",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_pugName",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes1",
+						"name": "_pugType",
+						"type": "bytes1"
+					}
+				],
+				"name": "addPug",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToUniqueIdentifier",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "pug",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -27,32 +75,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "pugShowNumber",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_pugNumber",
-						"type": "uint256"
-					}
-				],
-				"name": "pugStore",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -68,7 +90,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Contracts/PugCode102Contract.sol": "PugCode102"
+			"Contracts/PugArray.sol": "PugArray"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -82,12 +104,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Contracts/PugCode102Contract.sol": {
-			"keccak256": "0x32519ee5bcd14f1307ee154cd8150af09c860d6ea01cc0b002326c52f4a95a28",
+		"Contracts/PugArray.sol": {
+			"keccak256": "0x7282fd7127678ed1df56cada89c28ceacb8287d4e02a58f9d61eb0b22df31860",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4118b232a762c43ca363122c67dda635fd0ad0976d9f125b5ad630636f5f15e5",
-				"dweb:/ipfs/QmQ5eegp1D3Z2KMKpVswaTAhVVQdeFezB7PfKDpKvVynvz"
+				"bzz-raw://1f5afa1e5268eb5bbe34752780c8d7d5923e90d67baafd9335ca380c2492e7b4",
+				"dweb:/ipfs/QmSUyaoo9xkPwoMu3ZRvP5q6ov66rahHNb5YCeaAMTzCs2"
 			]
 		}
 	},
